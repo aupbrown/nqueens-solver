@@ -1,0 +1,21 @@
+README for Shakespeare
+
+Austin Brown, Feb. 8, 2026
+-----------------------------------------------------
+Code files: Makefile, main.cpp, board.cpp, board.h, solveNQueens.cpp, solveNQueens.h
+Test files: simple-input.txt, simple-output.txt, more-input.txt, more-output.txt, test-5-input.txt, 
+test-5output.txt
+
+Extra files: README (this file)
+----------------------------------------------------
+This is an assignment where we are creating a program to place N queens on an N X N board 
+where no queens attack eachother. We are given a few queens already placed and must either find
+a solution, or discover there there is No solution for the given input.
+----------------------------------------------------
+USAGE: 
+1) Run "make", to get executable "main".
+2) Run "./main <INPUT FILE> <OUTPUT FILE>"
+
+Each line of INPUT FILE should have N as the first numeber, and then the (x,y) coordinates of each given queen.
+Each corresponding line of OUTPUT FILE will be the (x,y) coordinates of each queen on the 
+board once solved, or "No solution".

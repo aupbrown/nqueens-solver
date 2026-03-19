@@ -1,0 +1,10 @@
+# Compiled output
+main
+*.o
+*.class
+
+# Logs and temp files
+*.log
+my_output.txt
+correct_output.txt
+temp_console_output.txt
